@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="com.example.dong.ServicePack.HistoryService" %>
 <%--
   Created by IntelliJ IDEA.
   User: DongKuen
@@ -7,10 +9,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>와이파이 검색 기록 삭제</title>
+</head>
+<body>
+<%
+    String wifi_id = request.getParameter("id");
+    HistoryService service = new HistoryService();
+    int result = service.deleteHistory(Integer.parseInt(wifi_id));
+%>
+
+<%= result%>
+
+</body>
 </html>

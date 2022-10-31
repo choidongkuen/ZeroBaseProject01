@@ -27,7 +27,7 @@ public class HistoryService {
     // 히스토리 내역 삭제하기
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public int deleteHistory (String id) throws SQLException {
+    public int deleteHistory (int id) throws SQLException {
         return wifidao.deleteHistory(id);
     }
 
