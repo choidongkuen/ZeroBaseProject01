@@ -35,6 +35,7 @@
 <h2> 해당 페이지는 사용자의 Wifi 검색 내역을 보여주는 페이지입니다.</h2>
 <a href ="index.jsp">홈</a> | <a href = "history" > 위치 히스토리 목록 </a> | <a href = "loadApiData">Open API 와이파이 정보 가져오기</a><br>
 <br>
+
 <table class = "table table-hover">
     <thead>
     <tr style="background-color:blanchedalmond">
