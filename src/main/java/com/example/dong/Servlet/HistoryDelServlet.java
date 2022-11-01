@@ -54,24 +54,3 @@ public class HistoryDelServlet extends HttpServlet {
 
     }
 }
-
-
-
-/*
-    List<WifiInfo02> histories = new ArrayList<>();
-    String id = request.getParameter("remove");
-//         ShowHistory.jsp 로 부터 request 인자를 받아옴
-
-
-    HistoryService service = new HistoryService();
-//        service.deleteHistory(id);
-//        id가 정상적인 경우 해당 id를 가진 내역 삭제
-*/
-
-
-// RequestDispather : 클라이언트로부터 최초에 들어온 요청을 JSP/Servlet 내에서 원하는 자원으로 요청을 넘기는 역할을 수행하거나
-// 특정 자원에 처리를 요청하고 처리 결과를 얻어오는 기능을 수행하는 클래스이다! ( 일종의 포워딩 ? )
-
-//        request.setAttribute("histories", histories); // 응답 객체 속성 지정
-//                RequestDispatcher dispatcher = request.getRequestDispatcher("ShowHistory.jsp"); // 다시 ShowHistory.jsp로 이동
-//                dispatcher.forward(request,response); // 포워딩
