@@ -17,13 +17,13 @@
 - wifi_info01
 
 
-![](../../Library/Mobile Documents/com~apple~CloudDocs/ScreenShot/스크린샷 2022-11-01 오전 9.29.30.png)
-
+<img width="794" alt="스크린샷 2022-11-01 오전 9 29 30" src="https://user-images.githubusercontent.com/96874318/199134340-b11d744c-7141-4473-bad6-1c6f2a0a8c30.png">
 
 
 - wifi_info02
 
-![](../../Library/Mobile Documents/com~apple~CloudDocs/ScreenShot/스크린샷 2022-11-01 오전 9.29.47.png)
+<img width="794" alt="스크린샷 2022-11-01 오전 9 29 47" src="https://user-images.githubusercontent.com/96874318/199134345-ad885647-d1eb-4116-a633-bc580054117d.png">
+
 
 
 
